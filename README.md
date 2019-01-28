@@ -5,11 +5,11 @@ CNN project to recognize dog breeds
 
 In this project for the Udacity Machine Learning Nanodegree, I implemented a CNN with AWS GPU to classify dog breeds or the most resembling dog breed among 133 available breeds when given as input an image of either a dog or a human. I used two pre-trained models `ResNet-50` to detect dogs and `OpenCV-Harr Cascades` to detect human faces. In addtion, by extracting the VGG16 and Xception bottleneck features, I also leveraged transfer learning to speed up my training process without sacrificing accuracy (84% test accuracy).
 
-# Installation
+## Installation
 
 Simply download the juputer notebook and the image directory to get started.
 
-# Usage
+## Usage
 
 Playing around with the dog breed classification hus in ML concepts.
 You can add your own images to run the algorithm.
